@@ -1,5 +1,5 @@
 import java.net.*;
-public class Person{
+public class Person implements Runnable{
     private String name;
 	private int id = next_id++;
 	private static int next_id = 0;
